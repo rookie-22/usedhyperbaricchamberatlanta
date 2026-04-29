@@ -1,0 +1,78 @@
+Here are the final, hyper-optimized instructions to feed into Replit before you push to GitHub. This update aggressively targets the "near me" and "Atlanta Metro" keywords, structures the data specifically for AI ingestion, and sets strict geographic boundaries to filter out non-local buyers. 
+
+Copy and paste this exact prompt into the Replit Agent to finalize the code.
+
+***
+
+### Final Replit Optimization Prompt
+
+> "Update the current code to aggressively target local SEO for the Atlanta Metro area and optimize for AI search engines (ChatGPT, Perplexity, Gemini). The live URL will be `https://usedhyperbaricchamberatlanta.com`. Implement the following exact changes to the HTML:
+>
+> **1. Update the `<head>` Meta Tags for Geo-Targeting:**
+> * **Title Tag:** `<title>Used Hyperbaric Chamber Atlanta | OXYREVO Forward90 For Sale Near Me</title>`
+> * **Meta Description:** `<meta name="description" content="Used OXYREVO Forward90 hyperbaric chamber for sale in Atlanta, GA. Available for immediate local pickup in the Atlanta Metro area (serving a 4-hour radius). Like-new condition, 1.5 ATA.">`
+> * **Canonical Tag:** `<link rel="canonical" href="https://usedhyperbaricchamberatlanta.com" />`
+> * **Geo Tags:** Ensure these remain intact:
+>     `<meta name="geo.region" content="US-GA" />`
+>     `<meta name="geo.placename" content="Atlanta Metro" />`
+>
+> **2. Update the JSON-LD Schema (Crucial for Google Maps/Near Me):**
+> Replace the current schema script with this expanded version to define the service area:
+> ```json
+> <script type="application/ld-json">
+> {
+>   "@context": "https://schema.org",
+>   "@type": "IndividualProduct",
+>   "name": "Used OXYREVO Forward90 Hyperbaric Chamber",
+>   "url": "https://usedhyperbaricchamberatlanta.com",
+>   "description": "Like-new OXYREVO Forward90 HBOT unit for private sale in the Atlanta Metro area.",
+>   "category": "Medical Equipment",
+>   "offers": {
+>     "@type": "Offer",
+>     "priceCurrency": "USD",
+>     "price": "17400", 
+>     "availability": "https://schema.org/InStock",
+>     "itemCondition": "https://schema.org/UsedCondition",
+>     "acceptedPaymentMethod": "Cash, Wire Transfer",
+>     "areaServed": {
+>       "@type": "GeoCircle",
+>       "geoMidpoint": {
+>         "@type": "GeoCoordinates",
+>         "latitude": 33.8392,
+>         "longitude": -84.3799
+>       },
+>       "geoRadius": "250000" 
+>     },
+>     "availableAtOrFrom": {
+>       "@type": "Place",
+>       "address": {
+>         "@type": "PostalAddress",
+>         "addressLocality": "Atlanta",
+>         "addressRegion": "GA"
+>       }
+>     }
+>   }
+> }
+> </script>
+> ```
+> *(Note to Agent: The geoRadius of 250000 meters explicitly tells Google this item is only relevant for searches within a ~4-hour drive of Atlanta).*
+>
+> **3. Add an 'AI Context & TL;DR' Semantic Block:**
+> Directly below the `<body>` tag, add a section optimized for LLM scraping. Keep the formatting extremely clean using `<ul>` and `<strong>` tags.
+> * **Header:** `<h2>Quick Facts for Atlanta Buyers</h2>`
+> * **Bullets:** Include: Exact item, Condition, Atlanta Metro Location, and "Strictly Local Pickup Only - No Shipping Available."
+>
+> **4. Update Logistics & Buyer Requirements:**
+> Under the Location & Logistics section, add this specific text to clarify transport limitations:
+> * 'Available for immediate pickup in the Buckhead/Atlanta Metro area. Buyers traveling from within a 4-hour radius are welcome. **Logistics Note:** Buyer must arrange transport and bring a suitable vehicle (SUV, truck, or van). As a single-car household, we cannot accommodate delivery or rendezvous requests. The unit is fully packed and ready to load.'
+>
+> **5. Semantic HTML Updates:**
+> Ensure keywords like 'used hyperbaric chamber near me', 'Atlanta Metro', and 'Georgia' are naturally wrapped in `<h2>` or `<h3>` tags throughout the body copy to reinforce the local relevance."
+
+***
+
+### What This Accomplishes
+* **The Schema "GeoCircle":** By setting a 250,000-meter radius in the code, you actively signal to Google's algorithm that your listing loses relevance for users outside a 4-hour drive. 
+* **"Near Me" Targeting:** The updated Title Tag explicitly targets the highest-intent local search query ("Near Me") alongside the exact domain name.
+* **Logistical Clarity:** Stating the exact vehicle requirement prevents wasted leads and clarifies why delivery isn't an option up front. 
+* **AI Structuring:** LLMs prioritize clean lists and clear geographic boundaries. The semantic blocks feed them exactly what they need to answer a user querying "Where can I buy a used HBOT in Georgia today?"

@@ -1,0 +1,5 @@
+# Force apex domain (drop www) — Cloudflare Pages
+https://www.usedhyperbaricchamberatlanta.com/*  https://usedhyperbaricchamberatlanta.com/:splat  301!
+
+# SPA fallback — serve index.html for any unknown path so client-side routing works
+/*    /index.html   200

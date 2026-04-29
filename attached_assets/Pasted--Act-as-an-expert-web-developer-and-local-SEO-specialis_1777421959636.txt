@@ -1,0 +1,53 @@
+"Act as an expert web developer and local SEO specialist. Build a premium, high-converting, single-page HTML/CSS/JS landing page for the domain usedhyperbaricchamberatlanta.com.
+
+Design Style: Modern, clean, and medical-grade. Use a color palette of white, deep blue, and 'Oxyrevo Green' accents. It must be fully mobile-responsive and load in under 1 second.
+
+Core Content & Product: > I am selling an OXYREVO Forward90 (1.4 - 1.5 ATA) Portable Sitting Hyperbaric Chamber. It retails for $17,400. It is 'Like New', purchased in November 2025, with only 40 hours/sessions of use. It includes the remainder of a 3-year residential warranty, the Pro Version Compressor, and all original accessories.
+
+Image Integration:
+I will upload custom photos of the actual unit and some stock manufacturer photos. Use placeholder <img> tags for now with the following exact filenames and Alt-Text:
+
+Main Hero Image: <img src="actual-used-hbot-atlanta-1.jpg" alt="OXYREVO Forward90 Hyperbaric Chamber for sale in Atlanta, GA - Actual Unit">
+
+Secondary Image: <img src="oxyrevo-stock-compressor.jpg" alt="Pro Version Compressor for OXYREVO Forward90">
+
+Contact Integration (NO E-COMMERCE):
+
+Do not build a checkout, cart, or payment gateway.
+
+Create a large, sticky call-to-action button: 'Inquire About Purchase'.
+
+Connect this button to an HTML contact form (using a service like Formspree) that sends directly to stevenscotttucker@gmail.com. Require Name, Email, and Message.
+
+Hyper-Local Atlanta SEO Requirements:
+
+Title Tag: Used OXYREVO Forward90 Hyperbaric Chamber for Sale - Atlanta, GA
+
+Meta Description: Like-new OXYREVO Forward90 (1.5 ATA) for sale in Atlanta/Buckhead. Only 40 hours of use. Full warranty included. Local pickup only. Save thousands on professional HBOT.
+
+H1 Tag: Hyperbaric Oxygen Therapy Unit - Local Pickup Atlanta
+
+Meta Geo Tags: Add Region US-GA, Placename Atlanta, and Position 33.8392;-84.3799 (Buckhead coordinates) into the <head>.
+
+Schema Markup: Write a JSON-LD script for an IndividualProduct with the location explicitly set to Atlanta, GA.
+
+AI Search & Zero-Click Optimization:
+Include a 'TL;DR' summary box at the very top of the page under the header for AI crawlers: 'Item: OXYREVO Forward90. Condition: Like New (40 hours). Location: Buckhead, Atlanta, GA. Contact: stevenscotttucker@gmail.com.'
+
+Required Sections:
+
+Hero Section with the TL;DR summary and the main photo.
+
+'The Opportunity' (Price context, condition, and warranty).
+
+'Technical Specifications' (Chamber dimensions, 1.4/1.5 ATA details, Pro Version Compressor details).
+
+'Benefits & Applications' (Recovery, wellness, inflammation).
+
+'What’s in the Box' (Full accessory list).
+
+'Location & Logistics' (Explicitly state: Available for immediate pickup in Buckhead, Atlanta today).
+
+'FAQ Section' (Include: 'Can I see the unit before buying?' Answer: 'Yes, private viewings are available by appointment in the Buckhead area of Atlanta.')
+
+Footer with a Google Maps embed placeholder for Buckhead, Atlanta."
