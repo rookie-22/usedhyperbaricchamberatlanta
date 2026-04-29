@@ -160,11 +160,7 @@ export default function Home() {
                 <span className="text-lg text-muted-foreground line-through">$17,400</span>
                 <span className="inline-flex items-center rounded-full bg-primary/10 text-primary text-xs font-semibold px-2.5 py-1 border border-primary/20">Save 43%</span>
               </div>
-              <div className="flex flex-wrap items-center gap-2 -mt-2" data-testid="badge-no-tax">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary/5 text-secondary text-xs font-semibold px-2.5 py-1 border border-secondary/10">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-primary" />
-                  No sales tax — private party sale
-                </span>
+              <div className="flex flex-wrap items-center gap-2 -mt-2">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary/5 text-secondary text-xs font-semibold px-2.5 py-1 border border-secondary/10">
                   <CheckCircle2 className="w-3.5 h-3.5 text-primary" />
                   Take it home today
@@ -285,7 +281,7 @@ export default function Home() {
               { title: "Your Price", value: "$9,999", desc: "Retail $17,400 — you save over $7,400.", icon: FileText },
               { title: "Condition", value: "Like New", desc: "Only 40 personal-use sessions since November 2025.", icon: CheckCircle2 },
               { title: "Warranty", value: "3 Years", desc: "Full remainder of residential warranty included.", icon: ShieldCheck },
-              { title: "Availability", value: "Today", desc: "No sales tax — take it home today and use it tonight.", icon: ArrowRight }
+              { title: "Availability", value: "Today", desc: "Take it home today and start using it tonight.", icon: ArrowRight }
             ].map((item, i) => (
               <motion.div 
                 key={i}
