@@ -153,6 +153,33 @@
       "availableDeliveryMethod": "https://schema.org/InStorePickup",
       "businessFunction": "https://schema.org/Sell",
       "acceptedPaymentMethod": ["Cash", "Wire Transfer"],
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "@id": "https://usedhyperbaricchamberatlanta.com/#shipping-pickup",
+        "name": "Local pickup only — Buckhead, Atlanta",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US",
+          "addressRegion": "GA"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY" },
+          "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://usedhyperbaricchamberatlanta.com/#return-policy",
+        "name": "Final sale — no returns (private party sale)",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+      },
       "availableAtOrFrom": {
         "@type": "Place",
         "name": "Buckhead, Atlanta — Private Pickup Location",
