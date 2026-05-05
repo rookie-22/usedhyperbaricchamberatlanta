@@ -255,7 +255,7 @@ export default function Home() {
                   ST
                 </div>
                 <div>
-                  <p className="font-semibold text-secondary">The Original Owner</p>
+                  <p className="font-semibold text-secondary">Steven S. Tucker — Original Owner</p>
                   <p className="text-sm text-muted-foreground">Private seller • Buckhead, Atlanta</p>
                 </div>
               </div>
@@ -1000,7 +1000,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-secondary text-white hover:bg-secondary/90 text-sm font-medium shadow-sm transition-colors"
                     data-testid="link-linkedin-contact"
-                    aria-label="Connect with Steven Stucker on LinkedIn (opens in new tab)"
+                    aria-label="Connect with Steven S. Tucker on LinkedIn (opens in new tab)"
                   >
                     <Linkedin className="w-4 h-4" />
                     Connect with Steven on LinkedIn
