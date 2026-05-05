@@ -1,5 +1,16 @@
-# Force apex domain (drop www) — Cloudflare Pages
-https://www.usedhyperbaricchamberatlanta.com/*  https://usedhyperbaricchamberatlanta.com/:splat  301!
+# Used Hyperbaric Chamber Atlanta — Cloudflare Pages _redirects
+#
+# This is a single-page static site. There is intentionally NO SPA fallback —
+# unknown paths must return 404 so Google does not index phantom duplicate URLs
+# (which previously triggered "Alternate page with proper canonical tag" warnings
+# in Google Search Console).
+#
+# www → apex redirect is configured at the Cloudflare dashboard level:
+#   Rules → Redirect Rules → "Redirect www to apex" (301, status preserves URL).
+# Cross-host redirects cannot be defined in _redirects on Cloudflare Pages.
 
-# SPA fallback — serve index.html for any unknown path so client-side routing works
-/*    /index.html   200
+# Normalize trailing slashes / common variants to canonical root
+/index           /   301
+/index.html      /   301
+/home            /   301
+/Home            /   301
